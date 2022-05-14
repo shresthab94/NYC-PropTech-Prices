@@ -97,7 +97,7 @@ combo
 
 (5) Plotted the real esate prices for each city in a line chart.
 
-### **Anlysis of National Mortgage Rates**
+### **Analysis of National Mortgage Rates**
 
 Here, we used the Fred API to import the mortgage rate data. Federal Reserve Economic Data ("FRED") is a database maintained by the Research division of the Federal Reserve Bank of St. Louis that has more than 816,000 economic time series from various sources.
 
@@ -111,7 +111,11 @@ In this section, we used the `corr` function and other the 'XXXXX' library to ex
 
 (1) Visually compared real estate prices and mortgage rates.
 
+![Real estate prices](./images/realestatehistoricalprices.png)
+
 (2) Calculated the correlation among real estate prices in NY, LA, and national mortgage rates.
+
+![Correlation](./images/correlation.png)
 
 ### **Monte Carlo Forecast of Future Real Estate Prices**
 
@@ -119,15 +123,29 @@ For this part of the assignment, we attempted to forecast the median prices for 
 
 (1) Ran a monte carlo simulation for real estate prices in LA.
 
+![Monte Carlo NY](./images/montecarlola.png)
+
 (2) Ran a monte carlo simulation real estate prices in NY.
+
+![Monte Carlo LA](./images/montecarlony.png)
 
 ### **Conclusions**
 
 Based on our analysis, we came to the following conclusions:
 
-(A) XXXX
+(A) LA real estate prices are increasing at a higher rate than NY (Queens County) real estate prices.
 
-(B) XXXX
+(B) Real estate prices are inversely correlated with mortgage rates.
+
+(C) Invest in real estate because returns are extremely positive.
+       
+       There is a 95% chance that the LA median home value over the next thirty years will be within the range of $4,990,809.80 and $8,224,836.22.
+
+       There is a 95% chance that the NY median home value over the next thirty years will be within the range of $1,901,451.6 and $2,323,568.72.
+
+       If we invest $500K in LA real estate now, we predict a 1215.7% return on investment in 30 years.
+
+       If we invest $500k in NY (Queens County) real estate now, we predict a 318.6% return on investment in 30 years.
 
 ---
 ## Contributors
